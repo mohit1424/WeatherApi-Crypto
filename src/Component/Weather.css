@@ -21,12 +21,16 @@
 }
 
 .search-logo{
+    position: absolute;
+    right: 30%;
+    top: 17%;
     height: 30px;
 }
 
 .input{
-    width: 16rem;
-    text-align: center;
+    position: relative;
+    width: 20rem;
+    padding: 10px;
     border-radius: 5px;
     border: white;
 }
