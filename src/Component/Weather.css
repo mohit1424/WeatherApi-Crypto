@@ -1,0 +1,67 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main{
+    border-radius: 10px;
+    width: 400px;
+    height: 530px;
+    background: linear-gradient(45deg,rgb(50, 98, 242),rgb(154, 154, 129),rgb(189, 189, 208));
+}
+
+.pre-main{
+    padding: 10px;
+    justify-content: center;
+    margin: 10px;
+    gap: 30px;
+    display: flex;     
+}
+
+.search-logo{
+    height: 30px;
+}
+
+.input{
+    width: 16rem;
+    text-align: center;
+    border-radius: 5px;
+    border: white;
+}
+
+.cloud-sun{
+    height: 150px;
+}
+
+.cloudSun-main{
+    display: flex;
+    justify-content: center;
+}
+
+.heading1{
+    text-align: center;
+}
+
+.p1{
+    text-align: center;
+}
+
+.show-weather{
+    display: flex;
+    padding: 10px;
+    margin: 40px;
+    gap: 130px;
+}
+
+.humidity-image{
+    height: 67px;
+}
+
+.wind-image{
+    height: 66px;
+}
+
+
+
