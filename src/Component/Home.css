@@ -78,6 +78,11 @@ h2{
     cursor: pointer;
 }
 
+button:hover {
+    background-color: #04AA6D; 
+    color: white;
+  }
+
 .sun2{
     position: absolute;
     left: 70%;

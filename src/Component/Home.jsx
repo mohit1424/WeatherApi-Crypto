@@ -1,4 +1,5 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import './Home.css'
 import sun from '/src/assets/sun.svg'
 import crypto from '/src/assets/crypto.svg'
@@ -10,6 +11,13 @@ import paris from '/src/assets/paris.svg'
 import london from '/src/assets/london.svg'
 
 function Home() {
+ 
+  const navigate = useNavigate();
+
+  const changetoWeather=()=>{
+    navigate("/Weather")
+  }
+
   return (
     <>
     <h1 style={{"textAlign":"center"}}>Welcome!</h1>
@@ -20,7 +28,7 @@ function Home() {
            <img className='sun' src={sun} alt="" />
          <img className='sun1' src={paris} alt="" />
          <img className='sun2' src={london} alt="" />
-         <button className='market-btn'>click here to see weather</button>
+         <button onClick={changetoWeather} className='market-btn'>click here to see weather</button>
      </div>
 
      <div className="home-main2">

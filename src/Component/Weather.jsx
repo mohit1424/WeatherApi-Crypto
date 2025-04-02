@@ -6,11 +6,13 @@ import wind from '/src/assets/wind.png'
 import humidity from '/src/assets/humidity.svg'
 import weatherRain from '/src/assets/weatherRain.svg'
 import sun from '/src/assets/sun.svg'
-
+import { Navigate, useNavigate } from 'react-router-dom'
 
 function Weather() {
 
   const inputRef = useRef() ;
+
+  const navigate = useNavigate();
 
   const [weatherdata, setweatherdata] = useState(false);
 
@@ -99,6 +101,8 @@ function Weather() {
 
    
     </div>
+    <button onClick={()=> navigate("/")} className='gotohome'>Go to home</button>
+    <button className='gotocrypto'>Go to Cypto</button>
     </div>
   )
 }

@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Weather from './Component/Weather'
 import Home from './Component/Home'
 
@@ -8,7 +9,12 @@ function App() {
 
   return (
     <>
-   <Home/>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Home/>} />
+      <Route path="/Weather" element={<Weather/>} /> 
+      </Routes>
+      </BrowserRouter>
     </>
   )
 }
