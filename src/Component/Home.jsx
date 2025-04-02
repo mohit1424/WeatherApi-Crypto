@@ -14,6 +14,8 @@ function Home() {
  
   const navigate = useNavigate();
 
+  const navi = useNavigate();
+
   const changetoWeather=()=>{
     navigate("/Weather")
   }
@@ -38,7 +40,7 @@ function Home() {
      <img className='crypto1' src={usd} alt="" />
      <img className='crypto2' src={dogcoin} alt="" />
      </div>
-     <button className='market-btn'>click here to see market</button>
+     <button onClick={()=> navi("/Crypto")} className='market-btn'>click here to see market</button>
      </div>
     </div>
     </>
