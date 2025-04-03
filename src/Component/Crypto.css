@@ -1,0 +1,39 @@
+.para{
+    background-color: aliceblue;
+    width: 90%;    
+    border-radius: 10px;
+    position: relative;
+    height: 260px;
+    margin: 13px;
+    display: flex;
+}
+
+.para img{
+    margin: 10px;
+    position: absolute;
+    height: 30px;
+}
+
+.dog-icon{
+  top: 105px;
+  left: 7px;
+}
+
+.usd-icon{
+    top: 50px;
+    left: 7px;
+}
+
+.celestia-icon{
+    top: 150px;
+    left: 7px;
+}
+
+.crypto-icon{
+    top: 200px;
+    left: 10px;
+}
+
+.line{
+    margin: 20px;
+}

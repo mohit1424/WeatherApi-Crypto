@@ -101,6 +101,9 @@ function Weather() {
 
    
     </div>
+
+
+
     <button onClick={()=> navigate("/")} className='gotohome'>Go to home</button>
     <button onClick={()=> navigate("/Crypto")} className='gotocrypto'>Go to Cypto</button>
     </div>
